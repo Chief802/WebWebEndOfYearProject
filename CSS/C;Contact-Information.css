@@ -1,0 +1,138 @@
+.bac-color {
+    background-color:#0e9dcc;
+    padding-left: 2%;
+    margin: 1%;
+}
+
+.small {
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.one {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.one li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.one li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("email.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
+
+.two {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.two li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.two li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("house.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
+.three {
+
+    list-style: none;
+    
+    padding-left: 0;  
+}
+    
+.three li {
+    
+    position: relative;
+    
+    padding-left: 30px;
+    
+    line-height: 170%;
+    
+}
+    
+.three li:before {
+    
+    content: '';
+    
+    width: 20px;
+    
+    height: 20px;
+    
+    position: absolute;
+    
+    background-image: url("phone.png");
+    
+    background-size: cover;
+    
+    background-position: center;
+    
+    left: 0;
+    
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+}
+
+
